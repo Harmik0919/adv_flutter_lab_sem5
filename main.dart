@@ -1,5 +1,3 @@
-import 'package:adv_flutter/lab4/custom_dialoge.dart';
-import 'package:adv_flutter/lab5/second_page_named_route.dart';
 
 import 'package:adv_flutter/utils/import_export.dart';
 import 'package:get/get.dart';
@@ -20,11 +18,18 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      // home: NevigationDataTranferFirstPage(),
-      initialRoute: NAV_FIRST_PAGE,
+      // home: RxboolShowHide(),
+      initialRoute: RXLIST_CRUD,
+      // initialBinding: TextBinding(),
       getPages: [
         GetPage(name: NAV_FIRST_PAGE, page: () => FirstPageNamedRoute()),
         GetPage(name: NAV_SECOND_PAGE, page: () => SecondPageNamedRoute()),
+        GetPage(name: FIRST_MIDDLEWARE_PAGE, page: ()=>FirstMiddlepageView()),
+        GetPage(name: SECOND_MIDDLEWARE_PAGE, page: ()=>SecondMiddlewareView(), middlewares: [CheckboxMiddleware()]),
+        GetPage(name: RXSTRING_HIDE_SHOW, page: ()=>TextBindingPage()),
+        GetPage(name: RXLIST_CRUD, page: () => RxlistCrudView()),
+        GetPage(name: RXLIST_ADD_EDIT, page: () => AddEditPage()),
+        GetPage(name: RXLIST_FAV, page: () => FavoriteUsersView()),
       ],
     );
   }

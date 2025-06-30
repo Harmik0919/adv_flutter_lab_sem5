@@ -14,6 +14,15 @@ const String NEVIGATION_DATA_TRANSFER_FIRST_GETX_APPBAR="Nevigation Data Transfe
 const String NEVIGATION_DATA_TRANSFER_SECOND_GETX_APPBAR="Nevigation Data Transfer Second Getx";
 const String NAMED_ROUTE_FIRST_PAGE_APPBAR="Named Route First Page";
 const String NAMED_ROUTE_SECOND_PAGE_APPBAR="Named Route Second Page";
+const String NON_REACTIVE_VAR_DEMO_APPBAR="Non Reactive Varible Demo";
+const String RX_VAR_DEMO_APPBAR="Rx Varible Demo";
+const String RX_STRING_APPBAR="TextField RxString Realtime Change";
+const String FIRST_MIDDLEWARE_PAGE_VIEW_APPBAR="First Page Middleware ";
+const String SECOND_MIDDLEWARE_PAGE_VIEW_APPBAR="Second Page Middleware ";
+const String RXBOOL_SHOW_HIDE_APPBAR="RxBool Show/Hide";
+const String APPBAR_RXLIST_CRUD="Rxlist Crud";
+const String APPBAR_ADD_EDIT_PAGE="Add/Edit Page";
+const String APPBAR_FAV_PAGE="Favorite Users";
 //endregion
 
 //region PROFILECARD HINT TEXT FORM CONSTANT
@@ -65,6 +74,9 @@ const String BTN_VIEW_ALL = "View All";
 const String BTN_SEE_ALL = "See All";
 const String BTN_MOVE="MOVE";
 const String BTN_BACK="BACK";
+const String BTN_SHOW_POP_UP="Show Pop Up";
+const String BTN_SHOW="Show";
+const String BTN_HIDE="Hide";
 //endregion
 
 //region USER MAP
@@ -151,4 +163,26 @@ const String ENTER_NAME="Enter a Name ";
 const String ENTER_EMAIL="Enter a Email ";
 const String NAV_FIRST_PAGE="/FirstPageNamedRoute";
 const String NAV_SECOND_PAGE="/SecondPageNamedRoute";
+const String FIRST_MIDDLEWARE_PAGE="/FirstMiddlewarePage";
+const String SECOND_MIDDLEWARE_PAGE="/SecondMiddlewarePage";
+//endregion
+
+//region LAB6
+const String PRESS_FLOATING_BTN_TO_INCRESE_BY_ONE="Press Floating Button To Increse By One";
+const String TYPE_HERE='Type Here';
+const String YOU_TYPED='You Typed: ';
+const String VISIBLE='I am visible!';
+const String RXSTRING_HIDE_SHOW="/RxstringHideShow";
+//endregion
+
+
+//region LAB7
+const String RXLIST_CRUD="/RxlistCrud";
+const String RXLIST_ADD_EDIT="/RxlistAddEdit";
+const String RXLIST_FAV="/Favorite";
+const String NAME="Name";
+const String EMAIL="Email";
+const String IS_FAV="isFavorite";
+const String NO_USER="No users added yet.";
+const String NO_FAV_USER="No favorite users yet.";
 //endregion
